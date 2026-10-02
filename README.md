@@ -62,6 +62,8 @@ exiftool.config
 
 为避免 Windows 命令行代码页导致中文路径损坏，程序使用 UTF-8 参数文件配合 ExifTool 的 `-@` 方式传递文件路径和归属信息。
 
+仓库不提交运行时下载生成的 `exiftool.exe`、`exiftool_files`、`exiftool.config` 和临时参数文件。
+
 ## 编译环境
 
 - Visual Studio 2022
@@ -97,7 +99,6 @@ PDF归属标记器/
 ├─ Program.cs
 ├─ App.config
 ├─ app.ico
-├─ app_icon.png
 └─ PDF归属标记器.csproj
 ```
 
